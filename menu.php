@@ -1,15 +1,3 @@
-<?php
-session_start();
-
-$logado = @$_SESSION['nome'];
-
-if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)){
-    unset($_SESSION['email']);
-    unset($_SESSION['senha']);
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,11 +34,6 @@ if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)
        <div class="texto">
         <h2>transfrome seu espaco <span>com qualidade e profissionalismo!</span></h2>
        </div>
-
-       <?php if((isset($_SESSION['email']) == true) and (isset($_SESSION['senha']) == true)){
-    echo "<div class='janela' id='janela'>";
-    echo "<p> Voce entrou como <span>" . $logado . "</span></p></div>";
-} ?>
     </header>
 
     <section class=" servicos w-full">
