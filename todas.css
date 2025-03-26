@@ -1,0 +1,128 @@
+header{
+    background-color: rgb(3, 95, 72);
+}
+
+body{
+    background-color: rgb(206, 204, 204);
+  }
+  
+header .home{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    }
+    
+header ion-icon{
+    color: #000000;
+    width: 60px;
+    height: 60px;
+    margin-top: 25px;
+    transition: all 1s;
+    }
+    
+header ion-icon:hover{
+    color: #ffffff;
+    transform: scale(1.2);
+    }
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.mapa{
+    width: 450px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: #ffffff;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 1%;
+}
+
+.mapa h1{
+    background-color: rgb(3, 95, 72);
+    text-align: center;
+    height: 20%;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5%;
+    border: 3px solid black;
+}
+
+.mapa iframe{
+    height: 80%;
+    width: 100%;
+}
+
+.publicacoes{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.publicacao{
+    background-color: rgb(206, 204, 204);
+    width: 90%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.publicacao .titulo{
+    height: 15%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 95, 72);
+}
+
+.publicacao .imagem{
+    border-top: 2px solid black;
+    height: 60%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagem img{
+    height: 100%;
+    width: 100%;
+}
+
+.publicacao .texto{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(32, 32, 32);
+    font-weight: 600;
+}
+
+.publicacao .data{
+    margin-top: 3%;
+    margin-left: 5%;
+    color: rgb(29, 29, 29);
+    font-weight: bold;
+}
+
+span{
+    font-weight: lighter;
+}
+
+footer{
+    background-color: rgb(3, 95, 72);
+    margin-top: 5%;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+  }

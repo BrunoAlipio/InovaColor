@@ -1,0 +1,131 @@
+header{
+    background-color: rgb(3, 95, 72);
+}
+
+.voltar{
+    width: 100px;
+    margin: auto;
+}
+
+ion-icon{
+    width: 100px;
+    height: 100px;
+    transition: all 1s;
+}
+
+ion-icon:hover{
+    color: aliceblue;
+    transform: scale(1.2);
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+.box{
+    width: 55%;
+    height: 500px;
+    background-color: rgb(3, 95, 72);
+    box-shadow: 2.6px 1.95px 1.95px  rgba(0, 0, 0, 0.95);
+}
+
+.box2{
+    width: 40%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    box-shadow: 2.6px 1.95px 1.95px 2.6px  rgba(0, 0, 0, 0.95);
+    overflow: scroll;
+}
+
+.box2 h1{
+    background-color: rgb(3, 95, 72);
+    height: 75px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 5%;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.titulo{
+    border: 2px solid black;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    
+}
+
+.texto{
+    border: 2px solid black;
+    width: 70%;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.data{
+    border: 2px solid black;
+    width: 15%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.none{
+    display: none;
+}
+
+.imgs{
+    height: 200px;
+    border: 2px dashed;
+    color: black;
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0.5%;
+}
+
+.input{
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.submit{
+    display: flex;
+    background-color: green;
+    width: 100px;
+    color: aliceblue;
+    text-align: center;
+    border: 2px outset white;
+    margin-left: 80%;
+    margin-top: -3.5%;
+    transition: all 500ms;
+}
+
+.submit:hover{
+    background-color: rgb(1, 88, 1);
+    transform: scale(1.1);
+}
+

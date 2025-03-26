@@ -1,0 +1,249 @@
+body{
+  background-image: linear-gradient(150deg, #00df87, #030f0f, #03624c);
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.74);
+}
+
+header .home{
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+}
+
+header ion-icon{
+  color: #ffffff;
+  width: 60px;
+  height: 60px;
+  margin-top: 25px;
+  transition: all 1s;
+}
+
+header ion-icon:hover{
+  color: #06723c;
+  transform: scale(1.2);
+}
+
+.box{
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .login{
+    width: 300px;
+    height: 100%;
+    margin-top: 50%;
+  }
+  
+  .login .logo img{
+    width: 150px;
+    height: 150px;
+  }
+  
+  .campo{
+    margin: 15px;
+    margin-left: 10%;
+    position: relative;
+    color: #7231ff;
+  }
+  
+  input{
+    background-color: transparent;
+    border: 2px solid #06723c;
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    padding: 0 1rem;
+    outline: none;
+  }
+  
+  label{
+    color: #06723c;
+    padding: 0 5px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 40%;
+    left: 1em;
+    font-size: 20px;
+    pointer-events: none;
+    transition: all 800ms;
+  }
+  
+  input:focus~label, input:valid~label{
+    top: 0;
+    background-color: #06070a;
+    font-size: 14px;
+  }
+  
+  .envio{
+    display: flex;
+    width: 100px;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: large;
+    background-color: #06723c;
+    cursor: pointer;
+    transition: all .8s;
+    box-shadow: 1.3px 1.3px 0 1.3px #ffffffb4;
+    color: rgb(255, 255, 255);
+  }
+  
+  .envio:hover{
+    transform: scale(1.2);
+    background-color: #07505a;
+  }
+  
+  .cadastro{
+    width: 300px;
+    height: 100%;
+    margin-left: 500px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 15%;
+  }
+  
+  .cadastro .logo2 img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+  }
+  
+  .campo2{
+    margin-top: -10px;
+    margin-bottom: 25px;
+    position: relative;
+    display: flex;
+    color: #06723c;
+  }
+  
+  .label{
+    top: 10px;
+  }
+  
+  .nasc{
+    top: 0;
+    background-color: #000000;
+    font-size: 12px;
+  }
+  
+  .envio2{
+    display: flex;
+    width: 100px;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: large;
+    background-color: #06723c;
+    cursor: pointer;
+    transition: all .8s;
+    box-shadow: 1.3px 1.3px 0 1.3px #ffffffb4;
+    color: rgb(255, 255, 255);
+  }
+  
+  .envio2:hover{
+    transform: scale(1.2);
+    background-color: #07505a;
+  }
+  
+  .laranja{
+    background-color: #06723c;
+    width: 40%;
+    height: auto;
+    display: flex;
+    border-radius: 0 30px 30px 0;
+    margin-left: auto;
+    position: relative;
+    transition: all 1s;
+  }
+  
+  .laranja .parede img{
+    width: 250px;
+    margin-top: 25%;
+    margin-left: 10%;
+    display: flex;
+    position: absolute;
+  }
+  
+  .cadastrar{
+    background-color: #000000;
+    color: #a3e3ed;
+    border: 2px solid #a3e3ed;
+    border-radius: 100px;
+    width: 150px;
+    height: 40px;
+    margin-top: 330px;
+    left: 90px;
+    position: absolute;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  
+  .cadastrar:hover{
+    transform: scale(1.3);
+  }
+  
+  .logar{
+    background-color: #000000;
+    color: #a3e3ed;
+    border: 2px solid #a3e3ed;
+    border-radius: 100px;
+    width: 150px;
+    height: 40px;
+    margin-top: 330px;
+    left: 90px;
+    position: absolute;
+    cursor: pointer;
+    transition: all 1s;
+    display: none;
+  }
+  
+  .logar:hover{
+    transform: scale(1.3);
+  }
+  
+  .clicado{
+    border-radius: 30px 0 0 30px;
+    transform: translateX(-150%);
+    animation: clicado 1s;
+  }
+  
+  @keyframes clicado{
+    0%{
+      transform: translateX(-75%);
+      border-radius: 30px 0 0 30px;
+    }
+    50%{
+      transform: translateX(-100%);
+    }
+  
+    75%{
+      border-radius: 0 30px 30px 0;
+    }
+  
+    100%{
+      transform: translateX(-150%);
+    }
+  }
+
+  footer{
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+  }
